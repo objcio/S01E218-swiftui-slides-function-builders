@@ -13,6 +13,7 @@
 		833C59A024E2BB1E00CFB025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833C599F24E2BB1E00CFB025 /* Assets.xcassets */; };
 		833C59A324E2BB1E00CFB025 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833C59A224E2BB1E00CFB025 /* Preview Assets.xcassets */; };
 		833C59A624E2BB1E00CFB025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833C59A424E2BB1E00CFB025 /* LaunchScreen.storyboard */; };
+		839085B124EBC3B000858D46 /* SlideBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839085B024EBC3B000858D46 /* SlideBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		833C59A224E2BB1E00CFB025 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		833C59A524E2BB1E00CFB025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		833C59A724E2BB1E00CFB025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839085B024EBC3B000858D46 /* SlideBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				833C59A424E2BB1E00CFB025 /* LaunchScreen.storyboard */,
 				833C59A724E2BB1E00CFB025 /* Info.plist */,
 				833C59A124E2BB1E00CFB025 /* Preview Content */,
+				839085B024EBC3B000858D46 /* SlideBuilder.swift */,
 			);
 			path = Slides;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				833C599A24E2BB1A00CFB025 /* AppDelegate.swift in Sources */,
+				839085B124EBC3B000858D46 /* SlideBuilder.swift in Sources */,
 				833C599C24E2BB1A00CFB025 /* SceneDelegate.swift in Sources */,
 				833C599E24E2BB1A00CFB025 /* ContentView.swift in Sources */,
 			);
